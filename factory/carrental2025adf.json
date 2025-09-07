@@ -1,0 +1,9 @@
+{
+	"name": "carrental2025adf",
+	"location": "norwayeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3fa76d0a-3c91-495c-ae11-190f7332f3be",
+		"tenantId": "b8b16f98-ca9f-4f9b-9f3c-9b7988cdde94"
+	}
+}

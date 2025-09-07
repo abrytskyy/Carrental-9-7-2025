@@ -1,0 +1,58 @@
+{
+	"name": "Carrental_sql_DS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "carrental_SQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "reservation_id",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "customer_id",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "car_id",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "start_time",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "end_time",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "driven_distance",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "usage_time",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "total_sales",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "CarRental",
+			"table": "Reservations"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
